@@ -1,12 +1,31 @@
+@keyframes color-change {
+  0% {
+      color:rgb(0, 153, 255);
+  }
+  25% {
+      color: cyan;
+  }
+  50% {
+      color: rgb(0, 139, 102);
+  }
+  25% {
+      color: cyan;
+  }
+  0% {
+      color:rgb(0, 153, 255);
+}
+}
 h1 {
-    font-family:'Monaco',monospace;
-    color: rgb(129, 185, 205);
+  animation: color-change 5s infinite;
+  font-family:'Monaco',monospace;
+  color: rgb(129, 185, 205); 
+}
+
+h2 {
+  font-family:'Monaco',monospace;
+  color: rgb(129, 185, 205);
   }
-  h2 {
-    font-family:'Monaco',monospace;
-    color: rgb(129, 185, 205);
-  }
-  h3 {
-    font-family:'Monaco',monospace;
-    color: rgb(147, 129, 205);
+h3 {
+  font-family:'Monaco',monospace;
+  color: rgb(147, 129, 205);
   }
