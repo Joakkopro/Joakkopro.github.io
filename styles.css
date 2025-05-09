@@ -1,31 +1,33 @@
 @keyframes color-change {
   0% {
-      color:rgb(0, 153, 255);
+      color:rgb(193, 197, 200);
   }
   25% {
-      color: cyan;
+      color: rgb(184, 184, 184);
   }
   50% {
-      color: rgb(0, 139, 102);
+      color: rgb(103, 105, 105);
   }
   25% {
-      color: cyan;
+      color: rgb(71, 73, 73);
   }
   0% {
-      color:rgb(0, 153, 255);
+      color:rgb(224, 224, 224);
 }
 }
 h1 {
   animation: color-change 5s infinite;
   font-family:'Monaco',monospace;
-  color: rgb(129, 185, 205); 
+  color: rgb(165, 166, 167); 
 }
 
 h2 {
+  animation: color-change 5s infinite;
   font-family:'Monaco',monospace;
-  color: rgb(129, 185, 205);
+  color: rgb(154, 156, 157);
   }
 h3 {
+  animation: color-change 5s infinite;
   font-family:'Monaco',monospace;
-  color: rgb(147, 129, 205);
+  color: rgb(161, 160, 165);
   }
