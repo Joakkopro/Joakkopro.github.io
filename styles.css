@@ -1,15 +1,15 @@
 @keyframes color-change {
   0% {
-      color:rgb(193, 197, 200);
+      color:rgb(198, 210, 219);
   }
   25% {
-      color: rgb(184, 184, 184);
+      color: rgb(158, 139, 139);
   }
   50% {
-      color: rgb(103, 105, 105);
+      color: rgb(173, 174, 174);
   }
   25% {
-      color: rgb(71, 73, 73);
+      color: rgb(169, 172, 172);
   }
   0% {
       color:rgb(224, 224, 224);
