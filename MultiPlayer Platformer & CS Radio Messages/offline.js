@@ -1,6 +1,6 @@
 ﻿{
-	"version"; 1749912433,
-	"fileList"; [
+	"version": 1749912433,
+	"fileList": [
 		"data.js",
 		"c2runtime.js",
 		"jquery-3.4.1.min.js",
